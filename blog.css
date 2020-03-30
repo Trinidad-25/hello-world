@@ -1,0 +1,70 @@
+.container{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-top: 300px;
+    grid-template-columns: 40px repeat(3, 1fr);
+    grid-template-rows: 100px 350px 1fr;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sd sd main main main main main main"
+    "ft ft ft ft ft ft ft ft";}
+.box{
+    width: 50px;
+    height: 100px;
+    border: 2px solid blue;
+    background-color: cornsilk;
+}
+.header{
+    grid-area:hd;
+}
+.footer{
+    grid-area: ft;
+}
+.sidebar{
+    grid-area: main;
+}
+   .container{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-evenly;
+        border: 2px solid blue;
+    }
+    .box{
+        width: 350px;
+        height: 250px;
+        border: 1px solid yellow;
+    }
+    #one{
+        order: 1;
+    }
+    /* flex: 2 1 300px */
+    #two{
+        order: 1;
+    }
+    /* flex: 1 2 300px */
+    #three{
+        order: 1;
+    }
+    </Style>
+       </Head>
+       <body>
+           <div class="container">
+               <div class="box" id="one">Box 1</div>
+               <div class="box" id="two">Box 2</div>
+               <div class="box" id="three">Box 3</div>
+               <div class="box" id="four">Box 4</div>
+               <div class="box" id="five">Box 5</div>
+         </div>
+ </body>
+ </style>
+ <meta charset="UTF-8>"
+ <body>
+     <!--Class + ID-->
+     <div id="love">Love will over come</div>
+     <!--img src-->
+     <img src="Christine.JPG" width="55"
+     <!--link href-->
+     <a href="http://www.udacity.com">Follow this link to udacity</a>
+ </body>
